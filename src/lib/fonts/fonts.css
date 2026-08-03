@@ -1,7 +1,0 @@
-@font-face {
-  font-family: 'Libre128';
-  src: url($lib/fonts/LibreBarcode128-Regular.ttf) format('ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
