@@ -2,14 +2,16 @@
     /** @type {import('./$types').LayoutProps} */
     let { data, children } = $props();
     import { page } from '$app/state';
-	// import { svelte } from '@sveltejs/vite-plugin-svelte';
     import '$lib/fonts.css';
-
-
 
 </script>
 
 <style>
+
+:global(canvas) {
+        position: absolute;
+        z-index: -100;
+}
 
     :global(*) {
         font-family: monospace;
@@ -34,7 +36,7 @@
         transition: transform .2s ease;
         position: absolute;
         top:0;left:0;right:0;bottom:0;
-        z-index: -1;
+        z-index: -10;
         transform: scaleX(0);
         transform-origin: left;
         content: " ";
@@ -174,7 +176,6 @@
     padding: 1cap;
     border-radius: 1vw;
     }
-
     :global(img) {
         border-radius: 1vw;
     }

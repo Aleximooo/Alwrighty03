@@ -34,10 +34,12 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.59.1",
-		"@sveltejs/adapter-node": "^5.5.4",
-		"@sveltejs/kit": "^2.57.0",
+		"@sveltejs/adapter-node": "^0.0.18",
+		"@sveltejs/adapter-static": "^4.0.0-next.4",
+		"@sveltejs/kit": "^2.70.2",
 		"@sveltejs/package": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
+		"@types/three": "^0.185.4",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.5.1",
 		"publint": "^0.3.18",
@@ -49,7 +51,12 @@
 		"svelte"
 	],
 	"dependencies": {
-		"@tailwindcss/vite": "^4.3.0",
-		"tailwindcss": "^4.3.0"
+		"animejs": "^4.5.0",
+		"jquery": "^4.0.0",
+		"p5": "^2.3.0",
+		"p5.asciify": "^0.3.0",
+		"svelte-asciiart": "^0.0.5",
+		"textmode.js": "^0.17.0",
+		"three": "^0.185.1"
 	}
 }
