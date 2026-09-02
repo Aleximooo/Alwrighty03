@@ -1,35 +1,34 @@
 @font-face {
-    font-family: 'LibreBarcode128-Text';
-    src: url(fonts/Libre_Barcode_128_Text/LibreBarcode128Text-Regular.ttf);
+	font-family: 'LibreBarcode128-Text';
+	src: url(fonts/Libre_Barcode_128_Text/LibreBarcode128Text-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Univers';
-    src: url(fonts\univers\UniversLight.ttf);
-    font-weight: 100;
-}
-
-    @font-face {
-        font-family: 'Univers';
-        src: url(fonts\univers\UniversRegular.ttf);
-        font-weight: 400;
-
-    }
-
-    @font-face {
-        font-family: 'Univers';
-        src: url(fonts\univers\UniversBold.ttf);
-        font-weight: 900;
-    }
-
-@font-face {
-    font-family: 'UniversCn';
-    src: url(fonts\univers\UniversCnRg.ttf);
-        font-weight: 400;
+	font-family: 'Univers';
+	src: url(fonts\univers\UniversLight.ttf);
+	font-weight: 100;
 }
 
 @font-face {
-    font-family: 'UniversCn';
-    src: url(fonts\univers\UniversCnBold.ttf);
-        font-weight: 900;
+	font-family: 'Univers';
+	src: url(fonts\univers\UniversRegular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Univers';
+	src: url(fonts\univers\UniversBold.ttf);
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'UniversCn';
+	src: url(fonts\univers\UniversCnRg.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'UniversCn';
+	src: url(fonts\univers\UniversCnBold.ttf);
+	font-weight: 900;
 }
